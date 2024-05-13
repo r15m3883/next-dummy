@@ -9,7 +9,6 @@ async function getUsers(){
 
 export default async function Page(){
     const users = await getUsers();
-    console.log(users);
     return(
         <>
             <h1>Users List</h1>
